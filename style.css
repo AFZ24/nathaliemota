@@ -1,0 +1,56 @@
+/*
+Theme Name: Twenty Twenty-Four Child
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Template: twentytwentyfour
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Tags: one-column,custom-colors,custom-menu,custom-logo,editor-style,featured-images,full-site-editing,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready,wide-blocks,block-styles,style-variations,accessibility-ready,blog,portfolio,news
+Version: 1.2.1730139773
+Updated: 2024-10-28 18:22:53
+
+*/
+
+
+
+.footer a {
+    text-decoration: none !important; 
+}
+
+footer.wp-block-template-part {
+    border-top: 1px solid black;
+}
+
+/* Conteneur principal de la barre de navigation */
+.navbar {
+    display: flex;
+    align-items: center; /* Centre le logo et le menu verticalement */
+    justify-content: space-between; /* Place le logo à gauche et le menu à droite */
+    padding: 10px 20px; /* Ajustez les marges intérieures si nécessaire */
+}
+
+/* Logo */
+.logo img {
+    height: 20px; /* Ajustez la taille selon votre design */
+}
+
+/* Menu principal */
+#primary-menu.menu {
+    display: flex;
+    gap: 40px; /* Espace entre les éléments du menu */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Space Mono;
+}
+
+/* Liens du menu */
+#primary-menu.menu a {
+    text-decoration: none;
+    color: #000; /* Couleur des liens, à ajuster */
+}
+
+#primary-menu.menu li {
+    display: flex;
+    align-items: center; /* Centre chaque élément de menu vertient */
+}
